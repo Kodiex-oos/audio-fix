@@ -1,7 +1,7 @@
 id=MMT-Ex
-name=Magisk Module Template Extended
-version=v3.7
-versionCode=19
-author=Zackptg5
-description=Magisk Module Template Extended
-updateJson=https://raw.githubusercontent.com/Zackptg5/MMT-Extended/master/update.json
+name=audio-file
+version=v0.1
+versionCode=1
+author=Kodiex
+description=trying to fix vp9 HW acceleration issue by replacing some files in vendor/etc using magisk
+updateJson=https://github.com/Kodiex-oos/audio-file/blob/master/update.json
