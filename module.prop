@@ -3,5 +3,5 @@ name=audio-file
 version=v0.1
 versionCode=1
 author=Kodiex
-description=trying to fix vp9 HW acceleration issue by replacing some files in vendor/etc using magisk
+description=fix vp9 HW acceleration issue by replacing some files in vendor/etc using magisk
 updateJson=https://github.com/Kodiex-oos/audio-file/blob/master/update.json
