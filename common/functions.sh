@@ -148,7 +148,7 @@ mount_mirrors() {
 
 # Credits
 ui_print "**************************************"
-ui_print "*   MMT Extended by Zackptg5 @ XDA   *"
+ui_print "*   audio-fix by Kodiex on Github   *"
 ui_print "**************************************"
 ui_print " "
 
