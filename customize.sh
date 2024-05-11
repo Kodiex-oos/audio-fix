@@ -36,6 +36,14 @@ REPLACE_EXAMPLE="
 
 # Construct your own list here
 REPLACE="
+/system/vendor/etc/media_codecs.xml
+/system/vendor/etc/media_codecs_vendor.xml
+/system/vendor/etc/media_profiles_khaje.xml
+/system/vendor/etc/media_codecs_vendor_audio.xml
+/system/vendor/etc/media_profiles_vendor.xml
+/system/vendor/etc/media_codecs_performance.xml
+/system/vendor/etc/media_profiles.xml
+/system/vendor/etc/system_properties.xml
 "
 
 ##########################################################################################
@@ -51,8 +59,8 @@ set_permissions() {
   # For directories (includes files in them):
   # set_perm_recursive  <dirname>                <owner> <group> <dirpermission> <filepermission> <contexts> (default: u:object_r:system_file:s0)
   
-  # set_perm_recursive $MODPATH/system/lib 0 0 0755 0644
-  # set_perm_recursive $MODPATH/system/vendor/lib/soundfx 0 0 0755 0644
+   set_perm_recursive $MODPATH/system/vendor 0 0 0755 0644
+   set_perm_recursive $MODPATH/system/vendor/etc 0 0 0755 0644
 
   # For files (not in directories taken care of above)
   # set_perm  <filename>                         <owner> <group> <permission> <contexts> (default: u:object_r:system_file:s0)
