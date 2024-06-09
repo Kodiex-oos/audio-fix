@@ -1,7 +1,6 @@
-id=MMT-Ex
-name=audio-file
-version=v0.1
-versionCode=1
+id=audio-fix
+name=audio-fix
+version=v0.2
+versionCode=0.2
 author=Kodiex
-description=fix vp9 HW acceleration issue by replacing some files in vendor/etc using magisk
-updateJson=https://github.com/Kodiex-oos/audio-file/blob/master/update.json
+description=fix vp9 HW acceleration issue by replacing some files in vendor/etc

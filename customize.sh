@@ -38,12 +38,7 @@ REPLACE_EXAMPLE="
 REPLACE="
 /system/vendor/etc/media_codecs.xml
 /system/vendor/etc/media_codecs_vendor.xml
-/system/vendor/etc/media_profiles_khaje.xml
-/system/vendor/etc/media_codecs_vendor_audio.xml
-/system/vendor/etc/media_profiles_vendor.xml
 /system/vendor/etc/media_codecs_performance.xml
-/system/vendor/etc/media_profiles.xml
-/system/vendor/etc/system_properties.xml
 "
 
 ##########################################################################################
